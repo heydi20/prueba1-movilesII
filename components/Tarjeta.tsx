@@ -6,7 +6,7 @@ export default function Tarjeta(props: any) {
     <View style={styles.card}>
       <Text>{props.peliculas.titulo}</Text>
       <View style={styles.imageContainer}>
-        <Image source={{ uri: props.peliculas.main }} style={styles.image} />
+        <Image source={{ uri: props.peliculas.enlaces.image }} style={styles.image} />
       </View>
     </View>
   );

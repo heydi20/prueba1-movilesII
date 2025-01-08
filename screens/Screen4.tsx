@@ -1,6 +1,6 @@
 import { ImageBackground, StyleSheet, Text, View } from 'react-native'
 import React, { useEffect, useState } from 'react'
-
+import datos from '../assets/data/peliculas.json'
 import { FlatList } from 'react-native-gesture-handler'
 import Tarjeta from '../components/Tarjeta';
 
