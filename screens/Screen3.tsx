@@ -29,7 +29,7 @@ export default function Screen3() {
     return (
         <View>
             <View>
-                <Text>Eliminar</Text>
+                <Text style={styles.title}>Eliminar</Text>
                 <TextInput
                     style={styles.input}
                     placeholder='Ingresar ID'
@@ -38,13 +38,14 @@ export default function Screen3() {
                 />
                 <Button color='red' title="Eliminar" onPress={() => eliminar()} />
             </View>
+
             <View>
                 <Text style={styles.title}>Registrar Mascota</Text>
                 <TextInput
                     style={styles.input}
                     placeholder="ID de la mascota"
                     keyboardType="numeric"
-                    value={idm}
+                    //value={idm}
                     onChangeText={(texto) => setid(texto)}
                 />
 
